@@ -1,0 +1,354 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 16230 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Documents/GitHub/group-7
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52308
+Successfully changed project path to: C:/Users/User/Documents/GitHub/group-7
+C:/Users/User/Documents/GitHub/group-7
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6852] Host "[IP] 158.132.53.85 [Port] 0 [Flags] 2 [Guid] 288956617 [EditorId] 288956617 [Version] 1048832 [Id] WindowsEditor(7,513-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6852] Host "[IP] 158.132.53.85 [Port] 0 [Flags] 2 [Guid] 288956617 [EditorId] 288956617 [Version] 1048832 [Id] WindowsEditor(7,513-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 86.53 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/group-7/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
+    Vendor:   NVIDIA
+    VRAM:     5032 MB
+    Driver:   30.0.14.7298
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003594 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 82.55 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (413ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005167 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\group-7\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\group-7\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 82.78 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\User\Documents\GitHub\group-7\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\User\Documents\GitHub\group-7\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7fef092428a04dc89d2aa6ad3ce5d856>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3671 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (85.0 KB). Loaded Objects now: 4112.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 3.226300 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.191500 ms MarkObjects: 2.672300 ms  DeleteObjects: 0.087700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6230.320219 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080ae9dfa7399b33d82ef65a37fac27') in 0.026903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.291621 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ede392239df6bf770ed0fb43b79895') in 0.007305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835247 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor
+  artifactKey: Guid(f60cdb876f3cce043b7f2d9d08583e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor using Guid(f60cdb876f3cce043b7f2d9d08583e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d068449e40e6e8e6dcc642794176c48') in 0.001222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069675 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef
+  artifactKey: Guid(37180d43aa4b85c4b9076e2ef48a3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef using Guid(37180d43aa4b85c4b9076e2ef48a3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e12f8127e9c442b1a6f36f3ea538faa') in 0.002295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187119 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.001492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.670491 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464905cf348a3030ff915904016b0176') in 0.001387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.065648 seconds.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(83b7bbecd9fac4db9824039903a1eea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(83b7bbecd9fac4db9824039903a1eea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e87ec44381814a26b24ab8af8480de6') in 0.001822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.326723 seconds.
+  path: Assets/ExampleAssets/Materials
+  artifactKey: Guid(7e2c000a47cf74a35ba28043f5839c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials using Guid(7e2c000a47cf74a35ba28043f5839c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a69abcc307f7b56fffddadefc993d4') in 0.001369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090327 seconds.
+  path: Assets/ExampleAssets/Materials/Controller.mat
+  artifactKey: Guid(3d2e36aacd7dc084b96e0755f1af4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Controller.mat using Guid(3d2e36aacd7dc084b96e0755f1af4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ec442da72bdd58c4ba4c58bf5f19c') in 0.195226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Materials/Skybox Light.mat
+  artifactKey: Guid(3a408e788dcbed6429c8d22a01b32a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Skybox Light.mat using Guid(3a408e788dcbed6429c8d22a01b32a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd109c271ca4d5954b80baafbfdb1e6') in 0.011574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.961871 seconds.
+  path: Assets/Monqo Flower Ceramic Vases/_Prefabs
+  artifactKey: Guid(a003b9b584eaea94d88ff4db4be80736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Flower Ceramic Vases/_Prefabs using Guid(a003b9b584eaea94d88ff4db4be80736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3b450239e2451d46024e490c6d4022') in 0.001677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057833 seconds.
+  path: Assets/Monqo Flower Ceramic Vases/_Prefabs/VaseA.prefab
+  artifactKey: Guid(2ad000dab9a13804d93c8fcee761f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Flower Ceramic Vases/_Prefabs/VaseA.prefab using Guid(2ad000dab9a13804d93c8fcee761f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b365521213b1477c7f089b458a597ed8') in 0.522639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Monqo Flower Ceramic Vases/_Prefabs/VaseC.prefab
+  artifactKey: Guid(df039b09bb35a5a4db6edf76716483a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Flower Ceramic Vases/_Prefabs/VaseC.prefab using Guid(df039b09bb35a5a4db6edf76716483a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a15f1830b2135887a6e09ea98050cb0') in 0.150022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.869004 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c625e89539f212862b9e77138dbca11') in 0.001545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.333020 seconds.
+  path: Assets/Scenes/Sarah.unity
+  artifactKey: Guid(c3c2afba7b441dc4abeaae878120d9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sarah.unity using Guid(c3c2afba7b441dc4abeaae878120d9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a9ccc58aa8e027c62d9727db5dd98') in 0.001515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 803.041324 seconds.
+  path: Assets/Monqo Flower Ceramic Vases/Textures/FlowerVase_Albedo.png
+  artifactKey: Guid(13623eb2fa70f944f8cdbdfad1b7a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Flower Ceramic Vases/Textures/FlowerVase_Albedo.png using Guid(13623eb2fa70f944f8cdbdfad1b7a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545c63c37bb2649c1c71ec2796cea2bf') in 0.076180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Monqo Flower Ceramic Vases/Textures/FlowerVase_Metallic.png
+  artifactKey: Guid(3314127896db60c49ac5e386d6d25c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Flower Ceramic Vases/Textures/FlowerVase_Metallic.png using Guid(3314127896db60c49ac5e386d6d25c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166e2eabbb2dd5de2cb5de4c14a8626') in 0.048326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Monqo Flower Ceramic Vases/Textures/FlowerVase_Normal.png
+  artifactKey: Guid(3977035129fc454479884e73d97891c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monqo Flower Ceramic Vases/Textures/FlowerVase_Normal.png using Guid(3977035129fc454479884e73d97891c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3510a30f11df4bea415bf5c13bdf01c') in 0.047288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.043523 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/bench 2.fbx
+  artifactKey: Guid(63f6f79d68e0e994dbb89d9516315a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/bench 2.fbx using Guid(63f6f79d68e0e994dbb89d9516315a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26f831a956a3d619c046f1b2be0f1ff') in 0.094406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/carpet red.fbx
+  artifactKey: Guid(358b840743147954199e5da2c3d8d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/carpet red.fbx using Guid(358b840743147954199e5da2c3d8d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ae6feb3e4a468fb86e0813f40ee571') in 0.009211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/wooden bench.fbx
+  artifactKey: Guid(ffe98d202d829e34a8e668c4121ecb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/wooden bench.fbx using Guid(ffe98d202d829e34a8e668c4121ecb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad6b66724a1169ee73ebfbd5a0fa9fe') in 0.010255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/picnic bag.fbx
+  artifactKey: Guid(a590a80bad6af8a4eaa19194133619d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/picnic bag.fbx using Guid(a590a80bad6af8a4eaa19194133619d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965c6c0d7d86dd794236d1d0a7408b7b') in 0.013893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/fountain 1.fbx
+  artifactKey: Guid(18a639837c060634f83ee644df193c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/fountain 1.fbx using Guid(18a639837c060634f83ee644df193c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94bb17bc40e501362b2de0a3431504') in 0.012089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/trash can 1.fbx
+  artifactKey: Guid(95644c8c819323d429fc5f07e225e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/trash can 1.fbx using Guid(95644c8c819323d429fc5f07e225e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376114fc09a44aacc1198b789792de88') in 0.009967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Environment/lamppost.fbx
+  artifactKey: Guid(4ae667e39975ecc4fbd91f4115b24a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Environment/lamppost.fbx using Guid(4ae667e39975ecc4fbd91f4115b24a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1e5280f27de834af681e45a58f6812') in 0.010893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.812035 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Park grounds/ground park 2.fbx
+  artifactKey: Guid(5dc954c13297bd14da4f7822edc06fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Park grounds/ground park 2.fbx using Guid(5dc954c13297bd14da4f7822edc06fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f652d6f70972c9b4a23ecf0a02678ba0') in 0.009368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Park grounds/ground park 6.fbx
+  artifactKey: Guid(cbd39632b02e87e428c2cff4857291de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Park grounds/ground park 6.fbx using Guid(cbd39632b02e87e428c2cff4857291de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360cba20a33481de83a5e6120c5d39cd') in 0.009282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Environment Park/Models/Park grounds/ground park 4.fbx
+  artifactKey: Guid(62105d1c79ca0454fbcca43596faf444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Park grounds/ground park 4.fbx using Guid(62105d1c79ca0454fbcca43596faf444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bdab7b56fafebb192cf63d9d100327') in 0.011200 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
